@@ -1,0 +1,23 @@
+getClient()
+.getCategory()
+
+
+
+
+getObjs = obj => {
+    return {
+        getCategory : _ => {
+            return getObjs({})
+        },
+        getClient : _ => {
+            return getObjs({})
+        }
+    }
+}
+
+
+
+
+getObjs({})
+.getCategory()
+.getClient()
